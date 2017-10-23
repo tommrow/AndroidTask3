@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actions_images">
+        <item>@drawable/enchatedforest</item>
+        <item>@drawable/arla</item>
+        <item>@drawable/devondale</item>
+        <item>@drawable/kindle</item>
+        <item>@drawable/waitrose</item>
+        <item>@drawable/mcvitie</item>
+        <item>@drawable/ferrero</item>
+        <item>@drawable/maltesers</item>
+        <item>@drawable/lindt</item>
+        <item>@drawable/borggreve</item>
+    </string-array>
+    <string-array name="more_goods_info">
+        <item>一键下单</item>
+        <item>分享商品</item>
+        <item>不感兴趣</item>
+        <item>查看更多商品促销信息</item>
+    </string-array>
+</resources>

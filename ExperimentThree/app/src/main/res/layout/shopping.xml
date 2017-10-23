@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/shop_round"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:text="*"
+        android:textColor="@color/colorwhite"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/colorBlack"
+        android:text="购物车"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shop_price"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="价格"
+        android:textColor="@color/colorBlack"
+        />
+
+</LinearLayout>
