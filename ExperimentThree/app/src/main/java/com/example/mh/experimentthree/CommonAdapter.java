@@ -68,10 +68,7 @@ public  abstract class CommonAdapter extends RecyclerView.Adapter <ViewHolder>//
             });
         }
     }
-    protected abstract void convert(ViewHolder holder, Map<String, Object> stringObjectMap);
-
-
-
+    protected abstract void convert(ViewHolder holder, Map<String, Object> stringObjectMap);//convert必须是一个抽象函数
 }
 
 
